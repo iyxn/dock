@@ -26,6 +26,6 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}, Detail: {response.text}")
 
-curl -X POST "http://127.0.0.1:8001/generate" \
--H "Content-Type: application/json" \
--d '{"messages": "apa itu bahasa python", "generationConfig": { "temperature": 0.7, "maxOutputTokens": 200 }}'
+#curl -X POST "http://127.0.0.1:8001/generate" \
+#-H "Content-Type: application/json" \
+#-d '{"messages": "apa itu bahasa python", "generationConfig": { "temperature": 0.7, "maxOutputTokens": 200 }}'
