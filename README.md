@@ -10,7 +10,8 @@ Implementasi FastAPI untuk call API Gemini.
 
 ## Konfigurasi parameter
 Menentukan parameter model Gemini
-![App Screenshot](https://raw.githubusercontent.com/iyxn/gemini-fastapi/main/screenshot/parameter.png)
+
+![App Screenshot](https://raw.githubusercontent.com/iyxn/gemini-fastapi/main/screenshot/parameter_model.png)
 
 
 # Instalasi
