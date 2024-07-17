@@ -1,0 +1,17 @@
+# Gunakan image dasar dari python
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements dan install dependencies
+RUN pip install streamlit
+
+# Copy semua file ke dalam container
+COPY . .
+
+# Expose port yang digunakan oleh Streamlit
+EXPOSE 8501
+
+# Perintah untuk menjalankan Streamlit
+CMD ["streamlit", "run", "home.py", "--server.port=8501", "--server.address=0.0.0.0"]
