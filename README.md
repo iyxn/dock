@@ -22,7 +22,11 @@ Clone repository ini
   git clone https://github.com/iyxn/gemini-fastapi.git
   cd gemini-fastapi
 ```
-Docker
+Edit file .env.backup dan simpan dengan nama file .env
+```bash
+  API_KEY = API KEY Gemini Anda
+```
+Build Docker
 ```bash
   docker-compose --build
 ```
