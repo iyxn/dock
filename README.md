@@ -28,7 +28,7 @@ Edit file .env.backup dan simpan dengan nama file .env
 ```
 Build Docker
 ```bash
-  docker-compose --build
+  docker-compose up --build
 ```
 Akses aplikasi
 ```bash
